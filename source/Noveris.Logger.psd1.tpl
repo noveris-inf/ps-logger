@@ -60,7 +60,6 @@
     
     # Format files (.ps1xml) to be loaded when importing this module
     FormatsToProcess = @(
-        'Noveris.Logger.Format.ps1xml'
     )
     
     # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
@@ -106,10 +105,10 @@
             )
     
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri = 'https://github.com/noveris-inf/ps-logger/blob/main/LICENSE'
     
             # A URL to the main website for this project.
-            # ProjectUri = ''
+            ProjectUri = 'https://github.com/noveris-inf/ps-logger'
     
             # A URL to an icon representing this module.
             # IconUri = ''
