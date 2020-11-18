@@ -145,8 +145,6 @@ Function Reset-LogFileState
                 {
                     $source = $LogPath
                 } else {
-                    Write-Information "count: $count"
-                    Write-Information "LogPath: $LogPath"
                     $source = ("{0}.{1}" -f $LogPath, ($count-1))
                 }
                 $destination = ("{0}.{1}" -f $LogPath, $count)
